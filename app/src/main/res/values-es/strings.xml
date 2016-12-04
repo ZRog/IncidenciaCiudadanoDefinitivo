@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">La Incidencia del Ciudadano</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="ubicacionIncidencia">Ubicación de la incidencia</string>
+    <string name="descripcionProblema">Descripción de la incidencia</string>
+    <string name="reportarIncidencia">Reportar Incidencia</string>
+    <string name="mensajeIncResuelta">¿La incidencia ha sido resuelta? Pulsa el botón si es así</string>
+    <string name="enviarIncidencia">Enviar</string>
+    <string name="motivoReporte">Motivo del reporte</string>
+    <string name="escribeMotivo">Escribe el motivo aquí</string>
+    <string name="reporteEnviado">Reporte enviado. Gracias por su colaboración.</string>
+    <string name="faltanCampos">No puedes dejar campos vacíos</string>
+    <string name="incidenciaSend">Su incidencia ha sido enviada</string>
+    <string name="disteLike">Ya colaboraste con esta incidencia</string>
+    <string name="calleInvalida">Calle erronea</string>
+    <string name="contacta">Contacta con nosotros</string>
+    <string name="listaIncidencias">Lista de Incidencias</string>
+    <string name="addIncidencia">Añadir Incidencia</string>
+    <string name="contactar">Contacta con nosotros</string>
+    <string name="gracias">Gracias por su colaboracion</string>
+</resources>

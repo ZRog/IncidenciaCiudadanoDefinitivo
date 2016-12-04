@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    android:layout_height="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/elevacion"
+    android:alpha="0.95"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+</android.support.v7.widget.Toolbar>

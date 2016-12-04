@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/addIncidencia"
+    android:title="@string/addIncidencia"></item>
+<item android:id="@+id/ListaIncidencia"
+    android:title="@string/listaIncidencias"></item>
+<item android:id="@+id/Contacta"
+    android:title="@string/contacta"></item>
+</menu>

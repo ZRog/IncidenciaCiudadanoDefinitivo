@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    app:cardCornerRadius="10dp"
+    android:id="@+id/cardIncidencia">
+
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/panelCV"
+        android:background="@color/colorPrueba"
+        android:transitionName="pruebaTransicion">
+        <ImageView android:layout_height="115dp"
+            android:layout_width="115dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/fotoIncidencia"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+
+            />
+        <TextView
+            android:layout_marginTop="@dimen/activity_vertical_margin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="prueba"
+            android:id="@+id/cardTxtUbicacion"
+            android:layout_toRightOf="@id/fotoIncidencia"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="prueba2"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:id="@+id/cardTxtDescripcion"
+            android:layout_toRightOf="@id/fotoIncidencia"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="@dimen/activity_vertical_margin2"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

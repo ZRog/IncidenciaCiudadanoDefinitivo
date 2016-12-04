@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">The Incidence of the Citizen</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="ubicacionIncidencia">Location of the Incidence</string>
+    <string name="descripcionProblema">Description of the Problem</string>
+    <string name="reportarIncidencia">Report Incidence</string>
+    <string name="mensajeIncResuelta">Is the Incidence resolved? Press the button if it is so</string>
+    <string name="enviarIncidencia">Send</string>
+    <string name="motivoReporte">Reason for reporting</string>
+    <string name="escribeMotivo">Write your reason here</string>
+    <string name="reporteEnviado">Report sended. Thank you for your colaboration.</string>
+    <string name="faltanCampos">You cannot send empty fields</string>
+    <string name="incidenciaSend">Your incidence has been sended</string>
+    <string name="disteLike">You already colaborated on this incidence</string>
+    <string name="calleInvalida">Wrong street</string>
+    <string name="contacta">Contact with us</string>
+    <string name="listaIncidencias">Incidence List</string>
+    <string name="addIncidencia">Add Incidence</string>
+    <string name="contactar">Contact with us</string>
+    <string name="gracias">Thank you for your colaboration</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "331365423586",
+    "firebase_url": "https://incidenciaciudadano.firebaseio.com",
+    "project_id": "incidenciaciudadano",
+    "storage_bucket": "incidenciaciudadano.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331365423586:android:077ca09d9d0a769e",
+        "android_client_info": {
+          "package_name": "com.example.rogport.incidenciaciudadano"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331365423586-pk878prcm7spkir3vqagrsj68n3e8ioe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rogport.incidenciaciudadano",
+            "certificate_hash": "A8E1B5594939DA815482B6C067F076E9A6BB13EA"
+          }
+        },
+        {
+          "client_id": "331365423586-qba9cmaphnblcn9rn7otiinf7o8ef8rk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9JqM86LY8KZRPyBRhd-eFGtx7vKrELg8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331365423586-qba9cmaphnblcn9rn7otiinf7o8ef8rk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ver_incidencia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rogport.incidenciaciudadano.Activities.VerIncidencia"
+    android:background="@color/colorPrueba">
+
+    <include android:id="@+id/app_bar"
+        layout="@layout/app_bar"></include>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_bar">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_bar"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/fotoIncidencia"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:id="@+id/tituloLocalizacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ubicacionIncidencia"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/fotoIncidencia"
+            android:textStyle="bold"
+            android:textSize="15.5sp"
+            />
+        <TextView
+            android:id="@+id/textoLocalizacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/tituloLocalizacion"
+            />
+        <TextView
+            android:id="@+id/tituloDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcionProblema"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/textoLocalizacion"
+            android:textStyle="bold"
+            android:textSize="15.5sp"
+            />
+        <TextView
+            android:id="@+id/textoDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/tituloDescripcion"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reportarIncidencia"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/TextIncidencia"
+            android:textColor="#80000f"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/textoDescripcion"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tituloResuelta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mensajeIncResuelta"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/TextIncidencia"
+            />
+
+        <Button
+            android:id="@+id/botonResuelta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:theme="@style/BotonRaised"
+            android:layout_below="@+id/tituloResuelta"
+            android:layout_centerInParent="true"
+            android:onClick="darLike"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/obrero"
+            android:layout_below="@id/tituloResuelta"
+            android:layout_centerInParent="true"
+            android:elevation="@dimen/elevacion"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
